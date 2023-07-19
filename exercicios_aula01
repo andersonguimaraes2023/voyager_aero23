@@ -1,0 +1,14 @@
+Exercicios da Aula 01
+
+01 - Site estático no Nginx Container
+
+Crie uma imagem personalizada Docker de um site estático usando Nginx.
+Use um Dockerfile para copiar seus arquivos HTML/CSS/JS para o contêiner Nginx.
+Execute o contêiner, expondo a porta 80 e acesse o site a partir de um navegador da web.
+
+02 - Container de banco de dados com volume de dados (PostgreSQL)
+
+Execute um contêiner PostgreSQL com um volume nomeado para persistência de dados
+Conecte-se ao banco de dados usando um cliente PostgreSQL em execução na máquina host
+
+03 - Bonus - Faça o mesmo exercício 02, porém usando o banco MySQL.
