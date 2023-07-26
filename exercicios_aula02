@@ -1,0 +1,5 @@
+Exercicios da Aula 02
+
+- Crie um Dockerfile para uma aplicação web em Python, usando um ambiente virtual para isolar as dependências.
+- Crie um Dockerfile para um aplicativo Node.js, usando a imagem Node oficial como base e instalando dependências com o npm install.
+- Escreva um Dockerfile para uma aplicação Java, usando o SDK Java e compilando o aplicativo em um estágio e executando-o em outro.
