@@ -1,0 +1,27 @@
+version: '3.3'
+services:
+  web_app:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./web_app_files:/usr/share/nginx/html
+  database:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_DB: mydatabase
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"  
+  worker:
+    image: redis:latest
+    command: redis-server
+    restart: always
+    ports:
+      - "6379:6379"
+volumes:
+  db_data:

@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+  web:
+    build:
+      context: .
+      args:
+        - PORT=${PORT}
+        - MESSAGE=${MESSAGE}
+    ports:
+      - "${PORT}:${PORT}"
+    environment:
+      - PORT=${PORT}
+      - MESSAGE=${MESSAGE}
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
