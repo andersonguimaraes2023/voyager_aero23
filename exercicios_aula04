@@ -1,0 +1,3 @@
+- CICD usando Gitlab e Docker Compose (Git + Gitlab + Compose + Dockerfile)
+- Funcionamento de Docker Compose utilizando outras linguagens (backend ou frontend) como Node, Python, JS, etc.
+- Mais exemplos de Docker Compose 
