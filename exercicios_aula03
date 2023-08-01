@@ -1,0 +1,4 @@
+- Criar um conteiner usando Docker Compose
+- Banco de dados Postgres usando Docker Compose
+- Variáveis de Ambiente e Segredos no Docker Compose
+- Apresentacao YAML na pratica junto com Docker Compose 
